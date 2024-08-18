@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PSGC API</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"
+    ></script>
+
+    
+    <meta name="theme-color" content="#31d53d" />
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/auth/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css"/>
+  </head>
+  <body>
+    
+  <div class="container-fluid backgrounds hakopon">
+      <div class="d-flex justify-content-center container titleee backgrounds">
+   <!--      <img src="/assets/imgs/title.5a14c1e9.png" alt=""> -->
+      </div>
+      <form id="login_form" class="container wrap-form text-center">
+        <h1 class="login">PSGC API INTEGRATION</h1>
+        <h2 class="text-center">Login</h2>
+        <div class="input-box">
+            <input type="email" placeholder="Email" id="email" name="email" required>
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" id="password" name="password" required>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <button type="submit" class="btn btn-primary"><b>Login</b></button>
+        <div class="create-account">
+            <p>Create Account <a href="signup.html">Sign-up</a></p>
+        </div>
+    </form>
+    <div class="container contact">
+      <ul class="logincontact">
+          <h4>TALK TO US</h4>
+          <p>Mobile number 1</p>
+          <p>Mobile number 2</p>
+          <p>Input Gmail Here@gmail.com</p>
+      </ul>
+    </div>
+  </div>
+
+  </body>
+</html>

@@ -405,11 +405,14 @@ font-size: 15px;
   padding-top: 8px;
   font-size: 15px;
 }
-.backgrounds{
-  background-color: rgb(4, 76, 140);
-  margin-top: 0px;
-  padding-bottom: 10px;
+.backgrounds {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  margin-top: 0;
+  padding: 10px 0;
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  box-sizing: border-box; /* Ensures padding doesn't affect the height */
 }
+
 .backgroundabout{
   background-color: rgb(4, 76, 140);
   margin-top: 0px;
@@ -426,7 +429,7 @@ font-size: 15px;
   margin: 20px;
 }
 .wrap-form{
-  margin-top: 60px;
+
   background-color: white;
   padding-top: 30px;
   border-radius: 10px;
